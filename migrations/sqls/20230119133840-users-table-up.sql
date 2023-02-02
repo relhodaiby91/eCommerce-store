@@ -1,0 +1,1 @@
+create table users (id serial primary key, firstname varchar (50) not null , lastname varchar (50) not null , password_digest varchar ); 

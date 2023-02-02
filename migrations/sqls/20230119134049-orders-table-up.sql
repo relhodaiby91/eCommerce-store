@@ -1,0 +1,1 @@
+create table orders (id serial primary key , status text not null, user_id int references users(id));

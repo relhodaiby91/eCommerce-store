@@ -1,0 +1,1 @@
+insert into products (name , price) values ('product01' , 100) ,  ('product02' , 400) , ('product03' , 500) , ('product04' , 880) , ('product05' , 790);

@@ -1,0 +1,1 @@
+insert into users (firstname , lastname) values ('user001' , 'lastname001') , ('user002' , 'lastname002') , ('user003' , 'lastname003') ,('user004' , 'lastname004');

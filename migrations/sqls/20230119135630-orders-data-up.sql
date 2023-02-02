@@ -1,0 +1,1 @@
+insert into orders (status , user_id) values ('active' , 3 ) , ('open' , 2) , ('completed' , 1);

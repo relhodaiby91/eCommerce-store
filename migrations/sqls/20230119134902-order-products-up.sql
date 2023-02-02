@@ -1,0 +1,1 @@
+create table order_products ( id serial primary key , product_id int references products(id) , quantity integer , user_id int references users(id) , status text);
