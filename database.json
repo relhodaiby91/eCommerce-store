@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": { "ENV": "HOST_DB" },
+    "database": { "ENV": "NAME_DB" },
+    "user": { "ENV": "USER_DB" },
+    "password": { "ENV": "PASSWORD_DB" }
+  },
+
+  "test": {
+    "driver": "pg",
+    "host": { "ENV": "HOST_DB" },
+    "database": { "ENV": "TEST_DB" },
+    "user": { "ENV": "USER_DB" },
+    "password": { "ENV": "PASSWORD_DB" }
+  }
+}
